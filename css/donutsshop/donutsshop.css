@@ -148,6 +148,7 @@
     grid-template-columns:1fr 500px 1fr;
     margin-top:50px;
     border-top:1px dotted #333;
+    overflow: hidden;
 }
 .social-media-section h3{
     grid-area : 1 / 2 / 2 / 3;
@@ -158,6 +159,7 @@
 .social-media{
     grid-area : 3 / 2 / 8 / 3;
     width:500px;
+    
     height:auto;
     position:relative;
     right:150px;

@@ -2,13 +2,13 @@ $(document).ready(function(){
 
   $(".owl-carousel").owlCarousel({
     center: true,
-    items:2,
+    items:1,
     loop:true,
     autoplay:true,
     margin:10,
     
     responsive:{
-        1000:{
+        400:{
              items:2
         }
     }
