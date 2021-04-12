@@ -1,0 +1,44 @@
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+/*navbar*/
+@import url("./navbar/navbar.css");
+
+/*footer*/
+@import url("./footer/footer.css");
+
+/* banner */
+@import url(./banner.css);
+
+h1{
+    font-family:"Kaushan Script";
+}
+
+
+/* travel area */
+.travel-area button:focus,button.active,button:active,button:hover{
+box-shadow: none!important;
+color:var(--primary-color)!important;
+}
+
+.travel-area .card img:hover{
+    box-shadow: var(--box-shadow);
+    filter:brightness(1.2);
+}
+.container{
+    max-width:90%;
+}
+
+
+/* skills area */
+
+.skill{
+    margin:1rem 0;
+    background-color: aliceblue;
+}
+.skill:hover{
+    box-shadow: var(--box-shadow);
+}

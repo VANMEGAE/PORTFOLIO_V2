@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="./css/carousel/carousel.css">
+
+    <!-- OWL Carousel CSS -->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+    <title>Carousel with Bootstrap</title>
+  </head>
+  <body>
+
+    <!---------------------- NAVBAR AREA ----------------->
+    <div class="header-area ">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container-fluid navbar-light">
+              <a class="navbar-brand" href="#">My Portfolio</a>
+              <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="mr-auto"></div>
+                <div class="navbar-nav">
+                    <a class="nav-link"  href="./index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="./carousel.html">Carousel</a>
+                    <a class="nav-link" href="./donutsshop.html">Donuts Shop</a>
+                    <a class="nav-link" href="./cssGridPage.html">Asymmetrical design</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!---------------------- END NAVBAR AREA ----------------->
+
+
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="8000">
+                <div class="overlay-image" style="background-image:url(./img/imageCarousel/img1.jpg)">
+                </div>
+                <div class="container text-container">
+                    <h1 class="display-2">Your next travel to Japan</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus qui fugit laudantium enim odio quae eaque alias, autem similique aut?</p>
+                    <a href="#" class="btn btn-lg btn-warning">
+                        GET STARTED
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="8000">
+                <div class="overlay-image" style="background-image:url(./img/imageCarousel/img2.jpg)">
+                </div>
+                <div class="container text-container">
+                    <h1 class="display-2">Your next travel to Japan</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus qui fugit laudantium enim odio quae eaque alias, autem similique aut?</p>
+                    <a href="#" class="btn btn-lg btn-warning">
+                        GET STARTED
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="8000">
+                <div class="overlay-image" style="background-image:url(./img/imageCarousel/img3.jpg)">
+                </div>
+                <div class="container text-container">
+                    <h1 class="display-2">Your next travel to Japan</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus qui fugit laudantium enim odio quae eaque alias, autem similique aut?</p>
+                    <a href="#" class="btn btn-lg btn-warning">
+                        GET STARTED
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+    </div>
+
+<!--======================= 2nd Carousel Area =============================  -->
+<div class="container pt-5">
+  <div class="owl-carousel owl-theme">
+    <div class="card rounded">
+      <div class="image-link">
+        <img src="./img/imageCarousel/card1.jpg" alt="" class="img-fluid rounded-top">
+        <a href="#" >See more</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-center">"Beautiful !"</h5>
+        <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+
+    <div class="card rounded">
+      <div class="image-link">
+        <img src="./img/imageCarousel/card2.jpg" alt="" class="img-fluid rounded-top">
+        <a href="#">See more</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-center">"Charming !"</h5>
+        <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+
+    <div class="card rounded">
+      <div class="image-link">
+        <img src="./img/imageCarousel/card3.jpg" alt="" class="img-fluid rounded-top">
+        <a href="#">See more</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-center">"Peaceful !"</h5>
+        <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+
+    <div class="card rounded">
+      <div class="image-link">
+        <img src="./img/imageCarousel/card4.jpg" alt="" class="img-fluid rounded-top">
+        <a href="#">See more</a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-center">"Vibrant !"</h5>
+        <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+  
+
+
+
+
+<!--======================= end 2nd Carousel Area =============================  -->
+    <!--======================= FOOTER Area =============================  -->
+
+<div class="footer-section">
+  <footer>
+      <div class="footer-background">
+      </div>
+      
+      <div class="container">
+          <div class="d-flex justify-content-center">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i>
+              </a>
+          </div>
+          
+          <p class="text-center text-secondary py-2">My Portfolio by Gaetan VAN MEER © All Rights Reserved 2021</p>
+      </div>
+      
+  </footer>
+</div>
+
+<!--======================= END FOOTER Area =============================  -->
+
+    <!--  Jquery js file  -->
+  <script src="./js/jquery.3.4.1.js"></script>
+
+  <!--  Bootstrap js file  -->
+  <script src="./js/bootstrap.min.js"></script>
+
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script src="./js/carousel.js"></script>
+
+
+  <!--  Animation on Scroll  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init({
+          duration: 1000,
+          once:true,
+      });
+  </script>
+  </body>
+  
+</html>
